@@ -1,0 +1,53 @@
+.secondTit ul li a {
+    color: #333;
+    font-size: 20px;
+}
+
+.answersUl li:first-child {
+    padding-top: 24px;
+}
+
+.answersUl li {
+    padding: 14px 0;
+    border-bottom: 1px dashed #d9d9d9;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.answersUl li p:first-child {
+    width: 760px;
+    height: auto;
+    max-height: 90px;
+}
+
+.answersUl li p {
+    color: #333;
+}
+
+.answersUl li {
+    padding: 46px 0;
+    border-bottom: 1px dashed #d9d9d9;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.answersUl li p {
+    color: #333;
+}
+
+.answersUl li span.ell {
+    margin-right: 20px;
+    width: 120px;
+}
+
+.answersUl li p span i {
+    margin-right: 8px;
+}
+
+.answersUl li p span {
+    margin-right: 30px;
+}
+
+.answersUl li a p:hover{
+    color: #99cc00;
+}

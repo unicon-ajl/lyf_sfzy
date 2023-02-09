@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/consulting team.css">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/general.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/guding.css">
+    <link rel="stylesheet" href="../Fonts/iconfont.css">
+    <title>河南十方心理咨询有限公司</title>
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <div class="nav bs_bottom " style="z-index: 999; position: fixed; top: 0px;">
+        <div class="w1200">
+            <ul>
+                <li class="li2"><a href="../Html/Home.html">首页</a></li>
+                <li class="li2"><a href="../Html/Company Dynamic.html">公司动态</a></li>
+                <li class="li2"><a href="../Html/Video center.html">视频中心</a></li>
+                <li class="li2"><a href="../Html/Psychological answering questions.html">心理答疑</a></li>
+                <li class="li1"><a href="../Html/Consulting team.html">咨询团队</a></li>
+                <li class="li2"><a href="../Html/Psychological science.html">心理科普</a></li>
+                <li class="li2"><a href="../Html/Education garden.html">教育园地</a></li>
+                <li class="li2"><a href="../Html/Public welfare center.html">公益中心</a></li>
+                <div id="uid">
+                    <li class="loginA fr"><a href="">注册</a></li>
+                    <li class="loginA fr"><a href="">登录</a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="fixedBox pf" style="z-index: 888">
+        <ul>
+            <a href="./Psychological answering questions.html">
+                <li>
+                    <i class="iconfont icon-tiwen"></i><br>
+                    提问
+                </li>
+            </a>
+            <li>
+                <i class="iconfont icon-zaixiankefu"></i><br>
+                在线客服
+            </li>
+            <li>
+                <i class="iconfont icon-dianhualianxifangshi"></i><br>
+                联系方式
+                <div class="phoneBox pfBox pa">
+                    <p>15638255265</p>
+                </div>
+            </li>
+            <li>
+                <i class="iconfont icon-weixin"></i><br>
+                微信咨询
+                <div class="pfBox1 pa">
+                    <img src="../imgs/code_03.jpg" alt="">
+                    <p>微信公众号</p>
+                </div>
+            </li>
+            <a href="#top">
+                <li>
+                    <i class="iconfont icon-huidaodingbu"></i><br>
+                    回到顶部
+                </li>
+            </a>
+        </ul>
+    </div>
+
+    <div class="w1200 clearfix padtb40">
+        <div class="secondTit">
+            <h1>咨询团队<span>TEAM</span></h1>
+        </div>
+        <div id="area_div">
+            <div class="marlr40">
+                <div class="c_box clearfix">
+                    <div class="fl topTit clearfix">
+                        <p class="fl f16 c999">所在地区：</p>
+                        <select name="city" id="city" onchange="LD.getCity(this);" class="borpad f12 c666">
+                            <option value="">请选择省</option>
+                            <option value="0002">北京市</option>
+                            <option value="0001">河南省</option>
+                        </select>
+                        <select class="borpad f12 c666" name="site_no" id="site_no" onchange="LD.getDistrict(this)">
+                            <option value="">请选择市</option>
+                        </select>
+                        <select class="borpad f12 c666" name="site_no" id="site_no_son" onchange="LD.getVillage(this)">
+                            <option value="">请选择</option>
+                        </select>
+                        <select class="borpad f12 c666" name="site_no" id="site_no_grandson" onchange="pages(page)">
+                            <option value="">请选择</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ss">
+            <div class="marlr40">
+
+                <div style="margin-top: 80px;">
+                    <div class="c_box clearfix types" hidden="">
+                        <p class="fl f16 c999">咨询方式：</p>
+                        <ul class="c_ul fl f16 c333">
+                            <li>不限</li>
+                            <li value="1">面对面咨询</li>
+                            <li value="0">网络咨询</li>
+                        </ul>
+                    </div>
+                    <div class="c_box clearfix grade">
+                        <p class="fl f16 c999">咨询师等级：</p>
+                        <ul class="c_ul fl f16 c333">
+                            <li>全部</li>
+                            <li>志愿者</li>
+                            <li>初级咨询师</li>
+                            <li>高级咨询师</li>
+                            <li>督导师</li>
+                            <li>专家</li>
+                        </ul>
+                    </div>
+                    <div class="c_box clearfix domain" style="margin-top: 40px;">
+                        <p class="fl f16 c999">擅长领域：</p>
+
+                        <ul class="c_ul fl f16 c333">
+                            <li>全部</li>
+                            <li>家庭关系</li>
+                            <li>亲子关系</li>
+                            <li>婚恋情感</li>
+                            <li>生活问题咨询</li>
+                            <li>个体咨询</li>
+                            <li>人际关系</li>
+                            <li>压力情绪</li>
+                            <li>儿童心理问题</li>
+                            <li>青少年</li>
+                            <li>成年人</li>
+                            <li>职场问题</li>
+                            <li>心理危机干预</li>
+                            <li>精神疾病治疗</li>
+                            <li>抑郁症</li>
+                            <li>老年人心理问题</li>
+                            <li>成瘾性问题</li>
+                            <li>性相关问题</li>
+                        </ul>
+
+                    </div>
+                    <div class="c_box clearfix price" id="price" hidden="">
+                        <p class="fl f16 c999">收费标准：</p>
+                        <ul class="c_ul fl f16 c333">
+                            <li>不限</li>
+                            <li value="100">0-100</li>
+                            <li value="500">101-500</li>
+                            <li value="1000">501-1000</li>
+                            <li value="high">1001以上</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="topTit clearfix" style="padding: 0px 0 20px;">
+            <div class="pr fr">
+                <input type="text" class="borpad f12 c666 sousuo" id="sousuo" placeholder="请输入咨询师名字">
+                <i style="position: absolute;" class="iconfont icon-sousuo1-copy"></i>
+            </div>
+        </div>
+
+        <div style="margin-top: 135px;" id="zxtd_tpl_div">
+            <dl class="cDl padtb40 clearfix pr" id="">
+                <dt class="pa"><img src="../imgs/tupian.jpg" alt=""></dt>
+                <dd>
+                    <p class="name c333">朱云</p>
+                    <p class="grade c666 f18">初级咨询师</p>
+                    <p class="c999 f14 l26">至今个体咨询时间三百小时以上，团体咨询两百小时以上，讲座八场...</p>
+                    <a href="javascript:;" class="pa f18 tac bs_bottom">查看详情</a>
+                    <input id="axs_id" type="hidden">
+                </dd>
+            </dl>
+
+            <dl class="cDl padtb40 clearfix pr" id="">
+                <dt class="pa"><img src="../imgs/tupian.jpg" alt=""></dt>
+                <dd>
+                    <p class="name c333">杨录庆</p>
+                    <p class="grade c666 f18">初级咨询师</p>
+                    <p class="c999 f14 l26">在基层从事劳动争议调解...</p>
+                    <a href="javascript:;" class="pa f18 tac bs_bottom">查看详情</a>
+                    <input id="axs_id" type="hidden">
+                </dd>
+            </dl>
+
+            <dl class="cDl padtb40 clearfix pr" id="">
+                <dt class="pa"><img src="../imgs/tupian.jpg" alt=""></dt>
+                <dd>
+                    <p class="name c333">陈慧灵</p>
+                    <p class="grade c666 f18">初级咨询师</p>
+                    <p class="c999 f14 l26">辉县市孟电小学任教...</p>
+                    <a href="javascript:;" class="pa f18 tac bs_bottom">查看详情</a>
+                    <input id="axs_id" type="hidden">
+                </dd>
+            </dl>
+
+            <dl class="cDl padtb40 clearfix pr" id="">
+                <dt class="pa"><img src="../imgs/tupian.jpg" alt=""></dt>
+                <dd>
+                    <p class="name c333">曹素琴</p>
+                    <p class="grade c666 f18">初级咨询师</p>
+                    <p class="c999 f14 l26">今年一月至四月参加河南省心理学会组织的河南省应对疫情在线心理援助志愿精英团公益活动援助时长达七十八小时被授予优秀志愿者称号...</p>
+                    <a href="javascript:;" class="pa f18 tac bs_bottom">查看详情</a>
+                    <input id="axs_id" type="hidden">
+                </dd>
+            </dl>
+
+            <dl class="cDl padtb40 clearfix pr" id="">
+                <dt class="pa"><img src="../imgs/tupian.jpg" alt=""></dt>
+                <dd>
+                    <p class="name c333">赵明志</p>
+                    <p class="grade c666 f18">初级咨询师</p>
+                    <p class="c999 f14 l26">心理咨询和家庭教育指导两年...</p>
+                    <a href="javascript:;" class="pa f18 tac bs_bottom">查看详情</a>
+                    <input id="axs_id" type="hidden">
+                </dd>
+            </dl>
+
+            <dl class="cDl padtb40 clearfix pr" id="">
+                <dt class="pa"><img src="../imgs/tupian.jpg" alt=""></dt>
+                <dd>
+                    <p class="name c333">孙明月</p>
+                    <p class="grade c666 f18">高级咨询师</p>
+                    <p class="c999 f14 l26">2010年9月至2015年6月 高校教师；2015年9月至2019年11月专职心理咨询师；2019年11月至今高校教师兼心理咨询师...</p>
+                    <a href="javascript:;" class="pa f18 tac bs_bottom">查看详情</a>
+                    <input id="axs_id" type="hidden">
+                </dd>
+            </dl>
+
+            <dl class="cDl padtb40 clearfix pr" id="">
+                <dt class="pa"><img src="../imgs/tupian.jpg" alt=""></dt>
+                <dd>
+                    <p class="name c333">郜雨佳</p>
+                    <p class="grade c666 f18">高级咨询师</p>
+                    <p class="c999 f14 l26">擅长儿童心理、婚姻家庭、犯罪人员心理咨询；擅长绘画心理分析及沙盘治疗。前后被聘为辉县市教育系统心理健康教育指导师
+                        ；辉县市司法系统社区矫正心理矫正指导师； 辉县市法院家事调解指定调解员； 辉县市武警中...</p>
+                    <a href="javascript:;" class="pa f18 tac bs_bottom">查看详情</a>
+                    <input id="axs_id" type="hidden" value="2c9065246e96ad950172bc02f6500a56">
+                </dd>
+            </dl>
+
+            <dl class="cDl padtb40 clearfix pr" id="">
+                <dt class="pa"><img src="../imgs/tupian.jpg" alt=""></dt>
+                <dd>
+                    <p class="name c333">马丽红</p>
+                    <p class="grade c666 f18">初级咨询师</p>
+                    <p class="c999 f14 l26">一直在学校做兼职心理健康老师...</p>
+                    <a href="javascript:;" class="pa f18 tac bs_bottom">查看详情</a>
+                    <input id="axs_id" type="hidden" </dd>
+            </dl>
+
+            <dl class="cDl padtb40 clearfix pr" id="">
+                <dt class="pa"><img src="../imgs/tupian.jpg" alt=""></dt>
+                <dd>
+                    <p class="name c333">张俊凤</p>
+                    <p class="grade c666 f18">初级咨询师</p>
+                    <p class="c999 f14 l26">无...</p>
+                    <a href="javascript:;" class="pa f18 tac bs_bottom">查看详情</a>
+                    <input id="axs_id" type="hidden">
+                </dd>
+            </dl>
+
+            <dl class="cDl padtb40 clearfix pr" id="">
+                <dt class="pa"><img src="../imgs/tupian.jpg" alt=""></dt>
+                <dd>
+                    <p class="name c333">杨新萍</p>
+                    <p class="grade c666 f18">高级咨询师</p>
+                    <p class="c999 f14 l26">在获嘉县凤翔中学兼职心理咨询室工作...</p>
+                    <a href="javascript:;" class="pa f18 tac bs_bottom">查看详情</a>
+                    <input id="axs_id" type="hidden">
+                </dd>
+            </dl>
+            <div id="zxtd_tck">
+            </div>
+            <div class="page tac padtb40">
+                <ul class="clearfix">
+                    <li class="on"><a href="javascript:;" id="page_tt" onclick="changePage(1)">1</a></li>
+                    <li><a href="javascript:;" onclick="changePage(2)">2</a></li>
+                    <li><a href="javascript:;" onclick="changePage(3)">3</a></li>
+                    <li><a href="javascript:;" onclick="changePage(4)">4</a></li>
+                    <li><a href="javascript:;" onclick="changePage(5)">5</a></li>
+                    <li><a href="javascript:;" onclick="changePage(6)">6</a></li>
+                    <li><a href="javascript:;" onclick="changePage(7)">7</a></li>
+                    <li><a href="javascript:;" onclick="changePage(8)">8</a></li>
+                    <li><a href="javascript:;" onclick="changePage(9)">9</a></li>
+                    <li>
+                        <a href="javascript:;" onclick="down()"><i class="iconfont icon-xiayiyeqianjinchakangengduo"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

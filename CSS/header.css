@@ -1,0 +1,174 @@
+.nav li a {
+    float: left;
+    padding: 0 12px;
+    line-height: 50px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav {
+    width: 100%;
+    z-index: 98;
+}
+
+.bs_bottom {
+    box-shadow: 0px 5px 14px 1px #cdcdcd;
+}
+
+.nav li a:hover {
+    color: #339933;
+    font-weight: bold;
+}
+
+.nav,.nav .w1200 {
+    background: linear-gradient(to right, #99cc33, #99cc00);
+    height: 50px;
+}
+
+.li1 a {
+    color: #339933;
+    font-weight: bold;
+}
+
+.li2 a {
+    color: #fff;
+}
+
+.loginA a {
+    color: #fff;
+}
+
+.mask {
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-width: 1200px;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 99;
+}
+
+.mask>div.pf {
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -276px;
+    width: 500px;
+    height: 552px;
+    background: #fff;
+}
+
+.login ul {
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9;
+    padding-top: 10px;
+}
+
+.login ul li:hover, .login ul li.on {
+    color: #99cc00;
+    border-bottom: 2px solid #99cc00;
+}
+
+.login ul li {
+    display: inline-block;
+    line-height: 70px;
+    padding: 0 20px;
+    margin: 0 30px;
+    cursor: pointer;
+    font-size: 28px;
+    color: #333;
+    line-height: 52px;
+}
+
+.formBox form.on {
+    display: block;
+}
+
+.formBox form:first-child {
+    height: 487px;
+    background: url(../images/img10_03.png)no-repeat bottom;
+}
+
+.formBox form {
+    padding: 30px 60px 0;
+    display: none;
+}
+
+.formBox form input {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.formBox form>p {
+    text-align: left;
+    font-size: 14px;
+    color: #666;
+    line-height: 30px;
+}
+
+.formBox form>p>span, .formBox form>p>span a {
+    color: #99cc33;
+}
+
+.curP {
+    cursor: pointer;
+}
+
+.formBox form button {
+    width: 100%;
+    height: 55px;
+    border: none;
+    background: #99cc00;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 3px;
+    letter-spacing: 3px;
+}
+
+.formBox form {
+    padding: 30px 60px 0;
+    display: none;
+}
+
+.btn {
+    display: inline-block;
+    width: 80px;
+    height: 34px;
+    background: #99cc00;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+.formBox form input[type=checkbox] {
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+}
+
+.login .close {
+    right: -40px;
+    top: -25px;
+    font-size: 30px;
+    color: #99cc33;
+}
+
+.look {
+    display: none;
+    padding: 20px;
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+}
+
+.loginBox {
+    display: none;
+}
+
+.loginBox:hover{
+    display: block;
+}

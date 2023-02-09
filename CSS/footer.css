@@ -1,0 +1,120 @@
+.footer, .footer .w1200 {
+    background: #2d3237;
+}
+
+.footer{
+    width: 100%;
+    position: absolute;
+    top: 2700px;
+}
+
+.footUl {
+    padding: 0 65px;
+}
+
+.footUl li.line {
+    width: 1px;
+    height: 90px;
+    padding: 0;
+    background: #414142;
+    margin-top: 65px;
+    box-shadow: 0 0 12px 3px rgb(0 0 0 / 10%);
+}
+
+.footUl li a {
+    line-height: 50px;
+    font-size: 18px;
+    color: #b2b2b2;
+}
+
+.footUl li {
+    float: left;
+    width: 200px;
+    text-align: center;
+    color: #b2b2b2;
+    margin: 80px 0;
+}
+
+.loginBox {
+    display: none;
+}
+
+.mask {
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-width: 1200px;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 99;
+}
+
+.pf {
+    position: fixed;
+}
+
+.mask>div.pf {
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -276px;
+    width: 500px;
+    height: 552px;
+    background: #fff;
+}
+
+.tac {
+    text-align: center;
+}
+
+.login ul {
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9;
+    padding-top: 10px;
+}
+
+.login ul li:hover, .login ul li.on {
+    color: #99cc00;
+    border-bottom: 2px solid #99cc00;
+}
+
+.login ul li {
+    display: inline-block;
+    line-height: 70px;
+    padding: 0 20px;
+    margin: 0 30px;
+    cursor: pointer;
+    font-size: 28px;
+    color: #333;
+    line-height: 52px;
+}
+
+.formBox form.on {
+    display: block;
+}
+
+.formBox form:first-child {
+    height: 487px;
+    background: url(../images/img10_03.png)no-repeat bottom;
+}
+
+.formBox form {
+    padding: 30px 60px 0;
+    display: none;
+}
+
+.formBox form input {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.footer ul li a:hover{
+    color: #fff;
+}
+
+.bs_text:hover{
+    color: #fff;
+}

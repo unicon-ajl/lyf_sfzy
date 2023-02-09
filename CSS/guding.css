@@ -1,0 +1,87 @@
+.fixedBox {
+    right: 0;
+    top: 50%;
+    margin-top: -215px;
+    width: 68px;
+    height: 430px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 0 11px 1px rgb(149 149 149 / 25%);
+}
+
+.pf {
+    position: fixed;
+}
+
+.fixedBox li:last-child {
+    border: none;
+    border-radius: 0 0 7px 7px;
+}
+
+.fixedBox li {
+    position: relative;
+    width: 100%;
+    height: 86px;
+    border-bottom: 1px solid #e3e3e3;
+    color: #999;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 15px 0;
+}
+
+.fixedBox li i{
+    font-size: 36px;
+}
+
+.phoneBox {
+    height: 100%;
+    padding: 0 5px;
+    line-height: 46px;
+    font-size: 18px;
+    
+}
+
+.pfBox {
+    display: none;
+    left: -140px;
+    top: 0;
+    width: 140px;
+    height: 86px;
+    padding: 20px 10px;
+    background: #99cc00;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+}
+
+.pfBox1 {
+    display: none;
+    left: -140px;
+    top: 0;
+    width: 140px;
+    height: 145px;
+    padding: 20px 10px;
+    background: #99cc00;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+}
+
+.pfBox p {
+    color: #fff;
+}
+
+.pfBox1 p {
+    color: #fff;
+}
+
+.fixedBox li:hover{
+    color: #fff;
+    background-color:#99cc00;
+}
+
+.fixedBox li:hover .pfBox {
+    display: block;
+}
+.fixedBox li:hover .pfBox1 {
+    display: block;
+}

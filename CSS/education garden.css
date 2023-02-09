@@ -1,0 +1,23 @@
+.leftBox {
+    width: 150px;
+    border-right: 1px solid #d9d9d9;
+}
+
+.leftBox>p {
+    padding: 0 12px;
+    color: #99cc00;
+    margin-bottom: 16px;
+}
+
+.leftBox li.on, .leftBox li:hover {
+    background: #99cc00;
+    color: #fff;
+}
+
+.leftBox li {
+    padding: 0 12px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+}
